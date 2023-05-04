@@ -1,0 +1,40 @@
+:root {
+    // radius
+    --radius: 30rem;
+    
+    //color
+    --primary: rgb(248,96,63);
+    --primary_light: rgb(239,135,113);
+    --primary_10p: rgb(var(--primary), 0.1);
+    --primary_20p: rgb(var(--primary), 0.2); 
+    --primary_30p: rgb(var(--primary), 0.3);
+    --primary_50p: rgb(var(--primary), 0.5);
+    --primary_70p: rgb(var(--primary), 0.7);
+    
+    //btn
+    --btn-size-large: 44rem;
+    --btn-size-medium: 34rem;
+    --btn-size-small: 28rem;
+    --btn-size-extraSmall: 24rem;
+    }
+
+.otl-primary_10p {
+    border: 1px solid rgb(0,0,0,0.5) !important;
+}
+
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+
+.open {
+    visibility: visible;
+}
+.close {
+    visibility: hidden;
+}
