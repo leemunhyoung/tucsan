@@ -71,23 +71,6 @@ function App() {
           tabState == 4 ? <Tab4Contents/> : <></>
         }  
       </div>
-      {/* <Button onClick={e => setDropdown(!Dropdown)}>
-        {
-          setDropdown
-            ? 'Menu Close'
-            : 'Menu Open'
-        }
-      </Button>
-      <div className='dropMenu'>
-          <Dropdown>
-            <ul>
-              <li>item 1</li>
-              <li>item 2</li>
-              <li>item 3</li>
-              <li>item 4</li>
-            </ul>
-            </Dropdown>
-      </div> */}
     </>
   )
 }
